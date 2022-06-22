@@ -10,12 +10,11 @@ const StySheet = () => {
   )
 }
 
-
 const styles = StyleSheet.create({
     container:{
-        flex :1,
+        flex: 1,
         padding:24,
-        backgroundColor : "#eaeaea"
+        backgroundColor: "#d6f4ec"
     },
     title:{
         marginTop:16,
@@ -27,7 +26,8 @@ const styles = StyleSheet.create({
         color: "#20232a",
         textAlign: "center",
         fontSize: 30,
-        fontWeight: "bold"
+        fontWeight: "bold",
+     
     }
 })
 

@@ -5,7 +5,7 @@ import styles from './components/styles'
 import StySheet from './components/stySheet';
 const App = () => {
   return (
-    <View >
+    <View style={styles.container}>
       {/* <Text style={[styles.title,styles.warning]}>Hello React Native</Text>
        */}
 
