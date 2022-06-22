@@ -14,18 +14,18 @@ const styles = StyleSheet.create({
     container:{
         flex: 1,
         padding:24,
-        backgroundColor: "#d6f4ec"
+        backgroundColor: "#eaeaea"
     },
     title:{
         marginTop:16,
         paddingVertical:8,
         borderWidth:4,
-        borderColor: "#20232a",
+        borderColor: "#EA4825",
         borderRadius: 6,
-        backgroundColor: "#61dafb",
-        color: "#20232a",
+        backgroundColor: "#ffffff",
+        color: "#447CEE",
         textAlign: "center",
-        fontSize: 30,
+        fontSize: 40,
         fontWeight: "bold",
      
     }
