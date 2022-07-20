@@ -7,13 +7,20 @@ import MyCustomTextWith from './components/MyCustomTextWith'
 import Count from './components/Count'
 import InputText from './components/InputText'
 import UserNameandPassword from './components/UserNameandPassword'
+import AlertComponent from './components/AlertComponent'
+import ImageWithTextInput from './components/ImageWithTextInput'
+import ButtonExample from './components/ButtonExample'
+import Touchable_Example from './components/Touchable_Example'
 const App = () => {
   return (
     <View style = {styles.container}>
-      <UserNameandPassword/>
+     
       {/* <Count/> */}
-      
-        
+       {/* <UserNameandPassword/> */}
+      {/* <AlertComponent/> */}
+      {/* <ImageWithTextInput/> */}
+      {/* <ButtonExample/> */}
+      <Touchable_Example/>
       
     </View>
   )

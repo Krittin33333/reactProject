@@ -1,18 +1,6 @@
 import { View, Text, TextInput, StyleSheet, Button } from "react-native";
 import React, { useState } from "react";
 
-
-const checkTextInput= () => {
-  if (!textInputName.trim()) {
-    alert('Please Enter Name');
-    return;
-  }
-  if (!textInputName.trim()) {
-    alert('Please Enter Email');
-    return;
-  }
-}
-
 const UserNameandPassword = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -38,10 +26,6 @@ const UserNameandPassword = () => {
         placeholder="Email"
       />
       <View style = {{width:300 ,marginTop:20}}>
-        <Button onPress= {checkTextInput}
-         title="Submit" color="#1D23AE" 
-         
-         />
          <Button onPress= {()=>{alert (username+ '\n' + password)}}
          title="Submit" color="#1D23AE"   />
       </View>
