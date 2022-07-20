@@ -40,8 +40,9 @@ const Touchable_Example = () => {
                 style ={styles.button}
                 onPress={() => onPress('TouchableWithoutFeedback')}
             >   
+            <View style ={styles.button}>
                 <Text> Touchable Without Feedback </Text>
-
+            </View>
             </TouchableWithoutFeedback>
 
         </View>
