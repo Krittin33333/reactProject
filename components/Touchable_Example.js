@@ -9,8 +9,8 @@ const Touchable_Example = () => {
     };
 
   return (
-    <SafeAreaView style = {{flex:1}}>
-        <View style = {styles.container}>
+    <SafeAreaView style = {styles.container}>
+        <View>
             
             <TouchableNativeFeedback
                 style ={styles.button}
@@ -32,6 +32,7 @@ const Touchable_Example = () => {
                 style ={styles.button}
                 onPress={() => onPress('TouchableOpacity')}
             >   
+            
                 <Text> Touchable Opacity </Text>
 
             </TouchableOpacity>
@@ -54,7 +55,8 @@ export default Touchable_Example
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,alignItems: 'center',
+        flex: 1,
+        alignItems: 'center',
         marginTop: 50,},
     button: {
         alignItems: 'center',
