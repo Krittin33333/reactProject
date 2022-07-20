@@ -1,47 +1,49 @@
 import { View, Text, TextInput, StyleSheet, Button } from "react-native";
 import React, { useState } from "react";
 
-const UserNameandPassword = () => {
-  const [textInputName, setUsername] = useState("");
-  const [textInputEmail, setEmail] = useState("");
 
 const checkTextInput= () => {
   if (!textInputName.trim()) {
     alert('Please Enter Name');
     return;
   }
-  if (!textInputEmail.trim()) {
+  if (!textInputName.trim()) {
     alert('Please Enter Email');
-    return;
-  }
-  if (textInputEmail.trim()&&textInputName.trim()) {
-    alert('Success');
     return;
   }
 }
 
+const UserNameandPassword = () => {
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
+
+
   return (
     <View style={styles.container}>
       <TextInput
-        value={textInputName}
-        onChangeText={(textInputName) => {
-          setUsername(textInputName);
+        value={username}
+        onChangeText={(username) => {
+          setUsername(username);
         }}
         style={styles.textInputStyle}
+
         placeholder="Enter Name"
       />
       <TextInput
-        value={textInputEmail}
-        onChangeText={(textInputEmail) => {
-          setEmail(textInputEmail);
+        value={password}
+        onChangeText={(password) => {
+         setPassword(password);
         }}
         style={styles.textInputStyle}
         placeholder="Email"
       />
       <View style = {{width:300 ,marginTop:20}}>
-      <Button onPress= {checkTextInput}
-        
-        title="Submit" color="#858585"   />
+        <Button onPress= {checkTextInput}
+         title="Submit" color="#1D23AE" 
+         
+         />
+         <Button onPress= {()=>{alert (username+ '\n' + password)}}
+         title="Submit" color="#1D23AE"   />
       </View>
     </View>
   );
