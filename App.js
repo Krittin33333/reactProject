@@ -14,20 +14,21 @@ import Touchable_Example from './components/Touchable_Example'
 import TouchablePractice from './components/TouchablePractice'
 import Dynamicstyle from './components/Dynamicstyle'
 import ModelExample from './components/ModelExample'
+import ModalPractice from './components/ModalPractice'
 const App = () => {
   return (
-    <View >
-     
+    <View style = {styles.container}>
       {/* <Count/> */}
        {/* <UserNameandPassword/> */}
       {/* <AlertComponent/> */}
       {/* <ImageWithTextInput/> */}
       {/* <ButtonExample/> */}
       {/* <Touchable_Example/> */}
-      {/* <TouchablePractice/>
-       */}
+      {/* <TouchablePractice/> */}
+       
        {/* <Dynamicstyle/> */}
        <ModelExample/>
+       {/* <ModalPractice/> */}
     </View>
   )
 }
@@ -38,7 +39,7 @@ const styles = StyleSheet.create({
   container:{
       flex: 1,
       justifyContent:'center',
-      alignItems:'center'
+      // alignItems:'center'
       
   },
  

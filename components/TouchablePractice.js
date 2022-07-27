@@ -17,7 +17,7 @@ const TouchablePractice = () => {
             >   
                 
                 <Image
-                  source = {require('../assets/Facebook.png')}
+                  source = {require('../assets/facebook.png')}
                   style = {styles.buttonImageIconStyle}/>
                   <Text style = {styles.buttonIconSeparatorStyle}></Text>
                   <Text style = {styles.buttonTextStyle}>Login Using Facebook </Text>
