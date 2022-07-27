@@ -12,9 +12,11 @@ import ImageWithTextInput from './components/ImageWithTextInput'
 import ButtonExample from './components/ButtonExample'
 import Touchable_Example from './components/Touchable_Example'
 import TouchablePractice from './components/TouchablePractice'
+import Dynamicstyle from './components/Dynamicstyle'
+import ModelExample from './components/ModelExample'
 const App = () => {
   return (
-    <View style = {styles.container}>
+    <View >
      
       {/* <Count/> */}
        {/* <UserNameandPassword/> */}
@@ -22,7 +24,10 @@ const App = () => {
       {/* <ImageWithTextInput/> */}
       {/* <ButtonExample/> */}
       {/* <Touchable_Example/> */}
-      <TouchablePractice/>
+      {/* <TouchablePractice/>
+       */}
+       {/* <Dynamicstyle/> */}
+       <ModelExample/>
     </View>
   )
 }
